@@ -1,0 +1,62 @@
+﻿src/api/axiosClient.ts(40,5): error TS2322: Type '{}' is not assignable to type 'AxiosRequestHeaders'.
+  Type '{}' is missing the following properties from type 'AxiosHeaders': set, get, has, delete, and 24 more.
+src/screens/LoginScreen.tsx(35,42): error TS2339: Property 'id' does not exist on type '{ userId: number; username: string; role: "Teacher" | "Parent" | "Admin"; fullName?: string | undefined; }'.
+src/screens/parent/ParentHomeScreen.tsx(108,25): error TS2551: Property 'ClassName' does not exist on type 'Student'. Did you mean 'className'?
+src/screens/parent/ParentHomeScreen.tsx(109,25): error TS2551: Property 'currentClassName' does not exist on type 'Student'. Did you mean 'currentClass'?
+src/screens/profile/SystemSettingsScreen.tsx(62,70): error TS2339: Property 'key' does not exist on type 'SystemSettingItem'.
+src/screens/profile/SystemSettingsScreen.tsx(62,82): error TS2339: Property 'name' does not exist on type 'SystemSettingItem'.
+src/screens/teacher/TeacherActivitiesScreen.tsx(34,28): error TS2339: Property 'EncodingType' does not exist on type 'typeof import("C:/Users/ADMIN/Desktop/KMS/kms_mobile/node_modules/expo-file-system/build/index")'.
+src/screens/teacher/TeacherActivitiesScreen.tsx(81,21): error TS2345: Argument of type 'ClassActivity[]' is not assignable to parameter of type 'SetStateAction<Activity[]>'.
+  Type 'ClassActivity[]' is not assignable to type 'Activity[]'.
+    Type 'ClassActivity' is not assignable to type 'Activity'.
+      Types of property 'description' are incompatible.
+        Type 'string | undefined' is not assignable to type 'string'.
+          Type 'undefined' is not assignable to type 'string'.
+src/screens/teacher/TeacherActivitiesScreen.tsx(263,63): error TS2339: Property 'teacherName' does not exist on type 'Activity'.
+src/screens/teacher/TeacherActivitiesScreen.tsx(264,63): error TS2339: Property 'className' does not exist on type 'Activity'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(145,27): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(146,27): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(147,28): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(148,28): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(149,28): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(150,28): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(156,26): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(157,26): error TS2339: Property 'className' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(158,27): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(159,27): error TS2339: Property 'className' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(160,27): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherAttendanceScreen.tsx(161,27): error TS2339: Property 'className' does not exist on type '{}'.
+src/screens/teacher/TeacherClassInfoScreen.tsx(40,27): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherClassInfoScreen.tsx(41,27): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherClassInfoScreen.tsx(42,28): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherClassInfoScreen.tsx(43,28): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherClassInfoScreen.tsx(44,28): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherClassInfoScreen.tsx(45,28): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(21,27): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(22,27): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(23,28): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(24,28): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(25,28): error TS2339: Property 'id' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(26,28): error TS2339: Property 'classId' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(33,25): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(34,25): error TS2339: Property 'className' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(35,26): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(36,26): error TS2339: Property 'className' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(37,26): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(38,26): error TS2339: Property 'className' does not exist on type '{}'.
+src/screens/teacher/TeacherHomeScreen.tsx(106,57): error TS2322: Type '{}' is not assignable to type 'ReactNode'.
+src/screens/teacher/TeacherProfileScreen.tsx(27,29): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherProfileScreen.tsx(28,29): error TS2339: Property 'className' does not exist on type '{}'.
+src/screens/teacher/TeacherProfileScreen.tsx(29,30): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherProfileScreen.tsx(30,30): error TS2339: Property 'className' does not exist on type '{}'.
+src/screens/teacher/TeacherProfileScreen.tsx(31,30): error TS2339: Property 'name' does not exist on type '{}'.
+src/screens/teacher/TeacherProfileScreen.tsx(32,30): error TS2339: Property 'className' does not exist on type '{}'.
+src/services/student.service.ts(56,3): error TS2300: Duplicate identifier 'CurrentClass'.
+src/services/student.service.ts(97,3): error TS2300: Duplicate identifier 'CurrentClass'.
+src/services/student.service.ts(97,3): error TS2717: Subsequent property declarations must have the same type.  Property 'CurrentClass' must be of type 'string | { [key: string]: unknown; id?: number | undefined; classId?: number | undefined; name?: string | undefined; className?: string | undefined; } | undefined', but here has type '{ [key: string]: unknown; id?: number | undefined; classId?: number | undefined; name?: string | undefined; className?: string | undefined; } | undefined'.
+src/services/student.service.ts(184,7): error TS7023: 'extractClassNameFromAny' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.
+src/services/student.service.ts(190,13): error TS7022: 'nested' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.
+src/services/student.service.ts(241,18): error TS2339: Property 'className' does not exist on type 'string | { [key: string]: unknown; id?: number | undefined; classId?: number | undefined; name?: string | undefined; className?: string | undefined; }'.
+  Property 'className' does not exist on type 'string'.
+src/services/student.service.ts(242,18): error TS2339: Property 'name' does not exist on type 'string | { [key: string]: unknown; id?: number | undefined; classId?: number | undefined; name?: string | undefined; className?: string | undefined; }'.
+  Property 'name' does not exist on type 'string'.

@@ -1,0 +1,31 @@
+{
+  "post": {
+    "tags": [
+      "DailyReport"
+    ],
+    "requestBody": {
+      "content": {
+        "application/json": {
+          "schema": {
+            "$ref": "#/components/schemas/CreateDailyReportDTO"
+          }
+        },
+        "text/json": {
+          "schema": {
+            "$ref": "#/components/schemas/CreateDailyReportDTO"
+          }
+        },
+        "application/*+json": {
+          "schema": {
+            "$ref": "#/components/schemas/CreateDailyReportDTO"
+          }
+        }
+      }
+    },
+    "responses": {
+      "200": {
+        "description": "OK"
+      }
+    }
+  }
+}
