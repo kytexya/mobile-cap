@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanh toán thất bại</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .container {
+      text-align: center;
+      padding: 2rem;
+    }
+    .icon {
+      width: 80px;
+      height: 80px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+      font-size: 40px;
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    p { opacity: 0.9; margin-bottom: 0.5rem; }
+    .error-code {
+      font-size: 0.875rem;
+      opacity: 0.7;
+      margin-bottom: 2rem;
+    }
+    .loading {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border: 3px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      border-top-color: white;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .btn {
+      display: inline-block;
+      padding: 12px 32px;
+      background: white;
+      color: #ee5a6f;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+    .retry-btn {
+      display: inline-block;
+      padding: 12px 32px;
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">✕</div>
+    <h1>Thanh toán không thành công</h1>
+    <p>Đang chuyển về ứng dụng KMS...</p>
+    <p id="errorCode" class="error-code"></p>
+    <div class="loading"></div>
+    <br><br>
+    <a id="openApp" href="#" class="btn">Mở ứng dụng</a>
+  </div>
+
+  <script>
+    // Parse query parameters
+    const params = new URLSearchParams(window.location.search);
+    const queryString = params.toString();
+    const errorCode = params.get('vnp_ResponseCode') || '99';
+    
+    // Display error code
+    if (errorCode) {
+      document.getElementById('errorCode').textContent = 'Mã lỗi: ' + errorCode;
+    }
+    
+    // Build deep link URL
+    const deepLink = 'kmsmobile://payment/failed' + (queryString ? '?' + queryString : '');
+    
+    // Auto redirect after 2 seconds (give user time to see error)
+    setTimeout(() => {
+      window.location.href = deepLink;
+    }, 2000);
+    
+    // Update button href
+    document.getElementById('openApp').href = deepLink;
+    
+    // Try immediate redirect as well
+    window.location.href = deepLink;
+  </script>
+</body>
+</html>

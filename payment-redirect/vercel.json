@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/success", "dest": "/success.html" },
+    { "src": "/failed", "dest": "/failed.html" }
+  ]
+}
