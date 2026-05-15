@@ -1,0 +1,37 @@
+{
+  "dto": {
+    "type": "object",
+    "properties": {
+      "studentId": {
+        "type": "integer",
+        "format": "int32"
+      },
+      "classId": {
+        "type": "integer",
+        "format": "int32"
+      },
+      "livingData": {
+        "type": "string",
+        "nullable": true
+      },
+      "createdBy": {
+        "type": "integer",
+        "format": "int32"
+      },
+      "educationalData": {
+        "type": "string",
+        "nullable": true
+      },
+      "reviewedBy": {
+        "type": "integer",
+        "format": "int32",
+        "nullable": true
+      },
+      "status": {
+        "type": "string",
+        "nullable": true
+      }
+    },
+    "additionalProperties": false
+  }
+}

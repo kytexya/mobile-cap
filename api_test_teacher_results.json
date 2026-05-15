@@ -1,0 +1,222 @@
+{
+  "passed": 26,
+  "failed": 10,
+  "details": [
+    {
+      "name": "GET /auth/profile",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/auth/profile"
+    },
+    {
+      "name": "GET /Announcements",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Announcements"
+    },
+    {
+      "name": "GET /Announcements/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Announcements/1"
+    },
+    {
+      "name": "POST /Announcements",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Announcements"
+    },
+    {
+      "name": "PUT /Announcements/1",
+      "status": "❌ FAIL",
+      "httpStatus": 400,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Announcements/1"
+    },
+    {
+      "name": "DELETE /Announcements/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Announcements/1"
+    },
+    {
+      "name": "GET /Attendance/class/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Attendance/class/1"
+    },
+    {
+      "name": "POST /Attendance/bulk",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Attendance/bulk"
+    },
+    {
+      "name": "GET /Attendance/student/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Attendance/student/1"
+    },
+    {
+      "name": "GET /ClassActivities/class/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/ClassActivities/class/1"
+    },
+    {
+      "name": "GET /ClassActivities/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/ClassActivities/1"
+    },
+    {
+      "name": "POST /ClassActivities",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/ClassActivities"
+    },
+    {
+      "name": "PUT /ClassActivities/1",
+      "status": "❌ FAIL",
+      "httpStatus": 400,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/ClassActivities/1"
+    },
+    {
+      "name": "DELETE /ClassActivities/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/ClassActivities/1"
+    },
+    {
+      "name": "GET /activity-media/activity/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/activity-media/activity/1"
+    },
+    {
+      "name": "GET /Teacher/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Teacher/1"
+    },
+    {
+      "name": "GET /Teacher/search?keyword=teacher",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Teacher/search?keyword=teacher"
+    },
+    {
+      "name": "GET /Invoice/student/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Invoice/student/1"
+    },
+    {
+      "name": "GET /Invoice/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Invoice/1"
+    },
+    {
+      "name": "POST /Invoice/1/pay",
+      "status": "❌ FAIL",
+      "httpStatus": 404,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Invoice/1/pay"
+    },
+    {
+      "name": "POST /daily-reports",
+      "status": "❌ FAIL",
+      "httpStatus": 500,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/daily-reports"
+    },
+    {
+      "name": "GET /menus/by-class/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/menus/by-class/1"
+    },
+    {
+      "name": "GET /menus/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/menus/1"
+    },
+    {
+      "name": "POST /menus",
+      "status": "❌ FAIL",
+      "httpStatus": 400,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/menus"
+    },
+    {
+      "name": "PUT /menus/1",
+      "status": "❌ FAIL",
+      "httpStatus": 400,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/menus/1"
+    },
+    {
+      "name": "DELETE /menus/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/menus/1"
+    },
+    {
+      "name": "GET /Notification",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Notification"
+    },
+    {
+      "name": "PATCH /Notification/1/read",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Notification/1/read"
+    },
+    {
+      "name": "DELETE /Notification/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Notification/1"
+    },
+    {
+      "name": "POST /Password/change",
+      "status": "❌ FAIL",
+      "httpStatus": 400,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Password/change"
+    },
+    {
+      "name": "GET /Student/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Student/1"
+    },
+    {
+      "name": "GET /Student/parent/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Student/parent/1"
+    },
+    {
+      "name": "GET /StudentParent/parent/1",
+      "status": "❌ FAIL",
+      "httpStatus": 403,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/StudentParent/parent/1"
+    },
+    {
+      "name": "GET /Student/class/1",
+      "status": "❌ FAIL",
+      "httpStatus": 404,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/Student/class/1"
+    },
+    {
+      "name": "GET /ClassStudent/student/1",
+      "status": "✅ PASS",
+      "httpStatus": 200,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/ClassStudent/student/1"
+    },
+    {
+      "name": "GET /SystemSettings",
+      "status": "❌ FAIL",
+      "httpStatus": 403,
+      "url": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net/api/SystemSettings"
+    }
+  ]
+}

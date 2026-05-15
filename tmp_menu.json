@@ -1,0 +1,38 @@
+[
+  {
+    "menuId": 1,
+    "classId": 1,
+    "menuDate": "2025-02-10",
+    "mealType": "Breakfast",
+    "menuContent": "Phở gà, bánh mì trứng, sữa tươi",
+    "calories": 350,
+    "allergens": "Gluten, sữa",
+    "source": "In-House",
+    "supplierName": null,
+    "preparedBy": null
+  },
+  {
+    "menuId": 8,
+    "classId": 1,
+    "menuDate": "2025-02-12",
+    "mealType": "Lunch",
+    "menuContent": "Cơm, gà xào rau củ, canh bí",
+    "calories": 440,
+    "allergens": null,
+    "source": "In-House",
+    "supplierName": null,
+    "preparedBy": null
+  },
+  {
+    "menuId": 9,
+    "classId": 1,
+    "menuDate": "2025-02-12",
+    "mealType": "Snack",
+    "menuContent": "Bánh flan, trái cây",
+    "calories": 160,
+    "allergens": "Trứng, sữa",
+    "source": "In-House",
+    "supplierName": null,
+    "preparedBy": null
+  }
+]

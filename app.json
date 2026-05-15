@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "KMS Mobile",
+    "slug": "kms-mobile",
+    "version": "1.0.0",
+    "scheme": "kmsmobile",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kms.mobile"
+    },
+    "android": {
+      "package": "com.kms.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiUrl": "https://kms-api-gkexamccg9hfbza8.southeastasia-01.azurewebsites.net"
+    }
+  }
+}

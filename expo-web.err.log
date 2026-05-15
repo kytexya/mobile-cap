@@ -1,0 +1,13 @@
+  --non-interactive is not supported, use $CI=1 instead
+The following packages should be updated for best compatibility with the installed expo version:
+  expo@55.0.8 - expected version: ~55.0.23
+  expo-constants@55.0.9 - expected version: ~55.0.16
+  expo-file-system@55.0.11 - expected version: ~55.0.19
+  expo-image-picker@55.0.13 - expected version: ~55.0.20
+  expo-secure-store@55.0.9 - expected version: ~55.0.13
+  expo-status-bar@55.0.4 - expected version: ~55.0.6
+  expo-updates@55.0.15 - expected version: ~55.0.21
+  react-native@0.83.2 - expected version: 0.83.6
+  react-native-safe-area-context@5.7.0 - expected version: ~5.6.2
+  react-native-screens@4.24.0 - expected version: ~4.23.0
+Your project may not work correctly until you install the expected versions of the packages.

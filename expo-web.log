@@ -1,0 +1,1016 @@
+Starting project at C:\Users\ADMIN\Desktop\KMS\kms_mobile
+Starting Metro Bundler
+
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web .\index.ts ▓▓░░░░░░░░░░░░░░ 16.6% (117/323)
+Web .\index.ts ▓▓▓▓▓▓▓▓▓▓░░░░░░ 63.3% (483/607)
+Web .\index.ts ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 69.1% ( 598/2397)
+Web Bundled 10200ms index.ts (2606 modules)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 229ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 262ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Unable to resolve "../screens/parent/PaymentReturnScreen" from "src\navigation\RootNavigator.tsx"
+[0m [90m 33 |[39m [36mimport[39m [33mPaymentSuccessScreen[39m [36mfrom[39m [32m'../screens/parent/PaymentSuccessScreen'[39m[33m;[39m
+ [90m 34 |[39m [36mimport[39m [33mPaymentFailedScreen[39m [36mfrom[39m [32m'../screens/parent/PaymentFailedScreen'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 35 |[39m [36mimport[39m [33mPaymentReturnScreen[39m [36mfrom[39m [32m'../screens/parent/PaymentReturnScreen'[39m[33m;[39m
+ [90m    |[39m                                  [31m[1m^[22m[39m
+ [90m 36 |[39m [36mimport[39m [33mParentHealthRecordScreen[39m [36mfrom[39m [32m'../screens/parent/ParentHealthRecordScreen'[39m[33m;[39m
+ [90m 37 |[39m [36mimport[39m [33mParentLessonPlanScreen[39m [36mfrom[39m [32m'../screens/parent/ParentLessonPlanScreen'[39m[33m;[39m
+ [90m 38 |[39m [36mimport[39m [33mParentEvaluationScreen[39m [36mfrom[39m [32m'../screens/parent/ParentEvaluationScreen'[39m[33m;[39m[0m
+
+Import stack:
+
+ src\navigation\RootNavigator.tsx
+ | import "../screens/parent/PaymentReturnScreen"
+
+ App.tsx
+ | import "./src/navigation/RootNavigator"
+
+ 
+ | import "./App"
+
+Unable to resolve "../screens/parent/PaymentScreen" from "src\navigation\RootNavigator.tsx"
+[0m [90m 30 |[39m [36mimport[39m [33mParentMenuScreen[39m [36mfrom[39m [32m'../screens/parent/ParentMenuScreen'[39m[33m;[39m
+ [90m 31 |[39m [36mimport[39m [33mAIAssistantScreen[39m [36mfrom[39m [32m'../screens/parent/AIAssistantScreen'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 32 |[39m [36mimport[39m [33mPaymentScreen[39m [36mfrom[39m [32m'../screens/parent/PaymentScreen'[39m[33m;[39m
+ [90m    |[39m                            [31m[1m^[22m[39m
+ [90m 33 |[39m [36mimport[39m [33mPaymentSuccessScreen[39m [36mfrom[39m [32m'../screens/parent/PaymentSuccessScreen'[39m[33m;[39m
+ [90m 34 |[39m [36mimport[39m [33mPaymentFailedScreen[39m [36mfrom[39m [32m'../screens/parent/PaymentFailedScreen'[39m[33m;[39m
+ [90m 35 |[39m [36mimport[39m [33mPaymentReturnScreen[39m [36mfrom[39m [32m'../screens/parent/PaymentReturnScreen'[39m[33m;[39m[0m
+
+Import stack:
+
+ src\navigation\RootNavigator.tsx
+ | import "../screens/parent/PaymentScreen"
+
+ 
+ | import "./src/navigation/RootNavigator"
+
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 196ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 584ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 869ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 383ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 225ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 810ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 4620ms index.ts (1 module)
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 235ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 449ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 139ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 243ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 283ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 92ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 247ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 162ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 162ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 174ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 423ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 124ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 327ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 229ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 141ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\services\lesson.service.ts: Nullish coalescing operator(??) requires parens when mixing with logical operators. (43:49)
+
+  41 |     lessonPlanId: Number(item?.lessonPlanId ?? item?.LessonPlanId ?? 0),
+  42 |     classId: Number(item?.classId ?? item?.ClassId ?? 0),
+> 43 |     title: item?.title ?? item?.Title ?? subject || 'Tiết học',
+     |                                                  ^
+  44 |     subject,
+  45 |     content: item?.content ?? item?.Content ?? (subject ? `Tiết ${subject}` : 'Nội dung bài học đang được giáo viên cập nhật'),
+  46 |     objectives: item?.objectives ?? item?.Objectives,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10951:22)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10953:21)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10908:17)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseObjectProperty (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11950:83)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11978:100)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9744:18)
+    at TypeScriptParserMixin.parsePropertyDefinition (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11915:17)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11832:21)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at TypeScriptParserMixin.parseExpressionBase (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10784:23)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:17)
+    at TypeScriptParserMixin.parseReturnStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13142:28)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12798:21)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseStatementListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12747:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:61)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseBlock (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13297:10)
+    at TypeScriptParserMixin.parseFunctionBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12100:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12075:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11687:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11331:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\services\lesson.service.ts: Nullish coalescing operator(??) requires parens when mixing with logical operators. (44:49)
+
+  42 |     lessonPlanId: Number(item?.lessonPlanId ?? item?.LessonPlanId ?? 0),
+  43 |     classId: Number(item?.classId ?? item?.ClassId ?? 0),
+> 44 |     title: item?.title ?? item?.Title ?? subject || 'Tiết học',
+     |                                                  ^
+  45 |     subject,
+  46 |     content: item?.content ?? item?.Content ?? (subject ? `Tiết ${subject}` : 'Nội dung bài học đang được giáo viên cập nhật'),
+  47 |     objectives: item?.objectives ?? item?.Objectives,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10951:22)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10953:21)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10908:17)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseObjectProperty (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11950:83)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11978:100)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9744:18)
+    at TypeScriptParserMixin.parsePropertyDefinition (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11915:17)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11832:21)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at TypeScriptParserMixin.parseExpressionBase (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10784:23)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:17)
+    at TypeScriptParserMixin.parseReturnStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13142:28)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12798:21)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseStatementListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12747:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:61)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseBlock (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13297:10)
+    at TypeScriptParserMixin.parseFunctionBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12100:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12075:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11687:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11331:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\services\lesson.service.ts: Nullish coalescing operator(??) requires parens when mixing with logical operators. (44:49)
+
+  42 |     lessonPlanId: Number(item?.lessonPlanId ?? item?.LessonPlanId ?? 0),
+  43 |     classId: Number(item?.classId ?? item?.ClassId ?? 0),
+> 44 |     title: item?.title ?? item?.Title ?? subject || 'Tiết học',
+     |                                                  ^
+  45 |     subject,
+  46 |     content: item?.content ?? item?.Content ?? (subject ? `Tiết ${subject}` : 'Nội dung bài học đang được giáo viên cập nhật'),
+  47 |     objectives: item?.objectives ?? item?.Objectives,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10951:22)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10953:21)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10908:17)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseObjectProperty (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11950:83)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11978:100)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9744:18)
+    at TypeScriptParserMixin.parsePropertyDefinition (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11915:17)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11832:21)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at TypeScriptParserMixin.parseExpressionBase (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10784:23)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:17)
+    at TypeScriptParserMixin.parseReturnStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13142:28)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12798:21)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseStatementListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12747:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:61)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseBlock (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13297:10)
+    at TypeScriptParserMixin.parseFunctionBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12100:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12075:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11687:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11331:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 32ms index.ts (1 module)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\services\lesson.service.ts: Nullish coalescing operator(??) requires parens when mixing with logical operators. (44:49)
+
+  42 |     lessonPlanId: Number(item?.lessonPlanId ?? item?.LessonPlanId ?? 0),
+  43 |     classId: Number(item?.classId ?? item?.ClassId ?? 0),
+> 44 |     title: item?.title ?? item?.Title ?? subject || 'Tiết học',
+     |                                                  ^
+  45 |     subject,
+  46 |     content: item?.content ?? item?.Content ?? (subject ? `Tiết ${subject}` : 'Nội dung bài học đang được giáo viên cập nhật'),
+  47 |     objectives: item?.objectives ?? item?.Objectives,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10951:22)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10953:21)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10908:17)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseObjectProperty (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11950:83)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11978:100)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9744:18)
+    at TypeScriptParserMixin.parsePropertyDefinition (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11915:17)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11832:21)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at TypeScriptParserMixin.parseExpressionBase (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10784:23)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:17)
+    at TypeScriptParserMixin.parseReturnStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13142:28)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12798:21)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseStatementListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12747:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:61)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseBlock (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13297:10)
+    at TypeScriptParserMixin.parseFunctionBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12100:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12075:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11687:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11331:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 34ms index.ts (1 module)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\services\lesson.service.ts: Nullish coalescing operator(??) requires parens when mixing with logical operators. (44:49)
+
+  42 |     lessonPlanId: Number(item?.lessonPlanId ?? item?.LessonPlanId ?? 0),
+  43 |     classId: Number(item?.classId ?? item?.ClassId ?? 0),
+> 44 |     title: item?.title ?? item?.Title ?? subject || 'Tiết học',
+     |                                                  ^
+  45 |     subject,
+  46 |     content: item?.content ?? item?.Content ?? (subject ? `Tiết ${subject}` : 'Nội dung bài học đang được giáo viên cập nhật'),
+  47 |     objectives: item?.objectives ?? item?.Objectives,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10951:22)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10953:21)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10908:17)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseObjectProperty (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11950:83)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11978:100)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9744:18)
+    at TypeScriptParserMixin.parsePropertyDefinition (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11915:17)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11832:21)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at TypeScriptParserMixin.parseExpressionBase (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10784:23)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:17)
+    at TypeScriptParserMixin.parseReturnStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13142:28)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12798:21)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseStatementListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12747:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:61)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseBlock (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13297:10)
+    at TypeScriptParserMixin.parseFunctionBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12100:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12075:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11687:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11331:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 49ms index.ts (1 module)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\services\lesson.service.ts: Nullish coalescing operator(??) requires parens when mixing with logical operators. (44:49)
+
+  42 |     lessonPlanId: Number(item?.lessonPlanId ?? item?.LessonPlanId ?? 0),
+  43 |     classId: Number(item?.classId ?? item?.ClassId ?? 0),
+> 44 |     title: item?.title ?? item?.Title ?? subject || 'Tiết học',
+     |                                                  ^
+  45 |     subject,
+  46 |     content: item?.content ?? item?.Content ?? (subject ? `Tiết ${subject}` : 'Nội dung bài học đang được giáo viên cập nhật'),
+  47 |     objectives: item?.objectives ?? item?.Objectives,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10951:22)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10953:21)
+    at TypeScriptParserMixin.parseExprOp (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9306:18)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10908:17)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseObjectProperty (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11950:83)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11978:100)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9744:18)
+    at TypeScriptParserMixin.parsePropertyDefinition (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11915:17)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11832:21)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at TypeScriptParserMixin.parseExpressionBase (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10784:23)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10780:17)
+    at TypeScriptParserMixin.parseReturnStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13142:28)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12798:21)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseStatementListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12747:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:61)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseBlock (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13297:10)
+    at TypeScriptParserMixin.parseFunctionBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12100:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12075:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11687:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11331:23)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 125ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 197ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 112ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 335ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 275ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 144ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 183ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 162ms index.ts (1 module)
+Web Bundled 241ms index.ts (1 module)
+Web Bundled 303ms index.ts (1 module)
+Web Bundled 253ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 127ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 165ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 395ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 242ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 164ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 279ms index.ts (1 module)
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 196ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Unable to resolve "react-native-linear-gradient" from "src\screens\parent\ParentHealthRecordScreen.tsx"
+[0m [90m  9 |[39m   [33mPlatform[39m[33m,[39m
+ [90m 10 |[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m [33mLinearGradient[39m [36mfrom[39m [32m'react-native-linear-gradient'[39m[33m;[39m
+ [90m    |[39m                             [31m[1m^[22m[39m
+ [90m 12 |[39m [36mimport[39m { [33mText[39m[33m,[39m [33mSurface[39m[33m,[39m useTheme } [36mfrom[39m [32m'react-native-paper'[39m[33m;[39m
+ [90m 13 |[39m [36mimport[39m {
+ [90m 14 |[39m   [33mArrowLeft[39m[33m,[39m[0m
+
+Import stack:
+
+ src\screens\parent\ParentHealthRecordScreen.tsx
+ | import "react-native-linear-gradient"
+
+ 
+ | import "./src/screens/parent/ParentHealthRecordScreen"
+
+Unable to resolve "react-native-linear-gradient" from "src\screens\parent\ParentHealthRecordScreen.tsx"
+[0m [90m  9 |[39m   [33mPlatform[39m[33m,[39m
+ [90m 10 |[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m [33mLinearGradient[39m [36mfrom[39m [32m'react-native-linear-gradient'[39m[33m;[39m
+ [90m    |[39m                             [31m[1m^[22m[39m
+ [90m 12 |[39m [36mimport[39m { [33mText[39m[33m,[39m [33mSurface[39m[33m,[39m useTheme } [36mfrom[39m [32m'react-native-paper'[39m[33m;[39m
+ [90m 13 |[39m [36mimport[39m {
+ [90m 14 |[39m   [33mArrowLeft[39m[33m,[39m[0m
+
+Import stack:
+
+ src\screens\parent\ParentHealthRecordScreen.tsx
+ | import "react-native-linear-gradient"
+
+ 
+ | import "./src/screens/parent/ParentHealthRecordScreen"
+
+Unable to resolve "react-native-linear-gradient" from "src\screens\parent\ParentHealthRecordScreen.tsx"
+[0m [90m  9 |[39m   [33mPlatform[39m[33m,[39m
+ [90m 10 |[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m [33mLinearGradient[39m [36mfrom[39m [32m'react-native-linear-gradient'[39m[33m;[39m
+ [90m    |[39m                             [31m[1m^[22m[39m
+ [90m 12 |[39m [36mimport[39m { [33mText[39m[33m,[39m [33mSurface[39m[33m,[39m useTheme } [36mfrom[39m [32m'react-native-paper'[39m[33m;[39m
+ [90m 13 |[39m [36mimport[39m {
+ [90m 14 |[39m   [33mArrowLeft[39m[33m,[39m[0m
+
+Import stack:
+
+ src\screens\parent\ParentHealthRecordScreen.tsx
+ | import "react-native-linear-gradient"
+
+ 
+ | import "./src/screens/parent/ParentHealthRecordScreen"
+
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 32ms index.ts (1 module)
+Unable to resolve "react-native-linear-gradient" from "src\screens\parent\ParentHealthRecordScreen.tsx"
+[0m [90m  9 |[39m   [33mPlatform[39m[33m,[39m
+ [90m 10 |[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m [33mLinearGradient[39m [36mfrom[39m [32m'react-native-linear-gradient'[39m[33m;[39m
+ [90m    |[39m                             [31m[1m^[22m[39m
+ [90m 12 |[39m [36mimport[39m { [33mText[39m[33m,[39m [33mSurface[39m[33m,[39m useTheme } [36mfrom[39m [32m'react-native-paper'[39m[33m;[39m
+ [90m 13 |[39m [36mimport[39m {
+ [90m 14 |[39m   [33mArrowLeft[39m[33m,[39m[0m
+
+Import stack:
+
+ src\screens\parent\ParentHealthRecordScreen.tsx
+ | import "react-native-linear-gradient"
+
+ 
+ | import "./src/screens/parent/ParentHealthRecordScreen"
+
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundling failed 24ms index.ts (1 module)
+Unable to resolve "react-native-linear-gradient" from "src\screens\parent\ParentHealthRecordScreen.tsx"
+[0m [90m  9 |[39m   [33mPlatform[39m[33m,[39m
+ [90m 10 |[39m } [36mfrom[39m [32m'react-native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mimport[39m [33mLinearGradient[39m [36mfrom[39m [32m'react-native-linear-gradient'[39m[33m;[39m
+ [90m    |[39m                             [31m[1m^[22m[39m
+ [90m 12 |[39m [36mimport[39m { [33mText[39m[33m,[39m [33mSurface[39m[33m,[39m useTheme } [36mfrom[39m [32m'react-native-paper'[39m[33m;[39m
+ [90m 13 |[39m [36mimport[39m {
+ [90m 14 |[39m   [33mArrowLeft[39m[33m,[39m[0m
+
+Import stack:
+
+ src\screens\parent\ParentHealthRecordScreen.tsx
+ | import "react-native-linear-gradient"
+
+ 
+ | import "./src/screens/parent/ParentHealthRecordScreen"
+
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\screens\parent\ParentHealthRecordScreen.tsx: Unexpected token, expected "," (819:2)
+
+  817 |   },
+  818 | satisfies
+> 819 |   emptySubtitle: {
+      |   ^
+  820 |     marginTop: 10,
+  821 |     textAlign: 'center',
+  822 |     lineHeight: 22,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.unexpected (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6619:16)
+    at TypeScriptParserMixin.expect (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6899:12)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11822:14)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:4764:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseExprListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12175:18)
+    at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11252:22)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11186:29)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11120:19)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9272:18)
+    at TypeScriptParserMixin.parseSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11094:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11085:17)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseVar (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13384:91)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13230:10)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9408:31)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12851:23)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12744:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:36)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12622:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12612:25)
+    at TypeScriptParserMixin.parse (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:14488:25)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\screens\parent\ParentHealthRecordScreen.tsx: Unexpected token, expected "," (819:2)
+
+  817 |   },
+  818 | satisfies
+> 819 |   emptySubtitle: {
+      |   ^
+  820 |     marginTop: 10,
+  821 |     textAlign: 'center',
+  822 |     lineHeight: 22,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.unexpected (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6619:16)
+    at TypeScriptParserMixin.expect (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6899:12)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11822:14)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:4764:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseExprListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12175:18)
+    at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11252:22)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11186:29)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11120:19)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9272:18)
+    at TypeScriptParserMixin.parseSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11094:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11085:17)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseVar (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13384:91)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13230:10)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9408:31)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12851:23)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12744:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:36)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12622:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12612:25)
+    at TypeScriptParserMixin.parse (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:14488:25)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\screens\parent\ParentHealthRecordScreen.tsx: Unexpected token, expected "," (819:2)
+
+  817 |   },
+  818 | satisfies
+> 819 |   emptySubtitle: {
+      |   ^
+  820 |     marginTop: 10,
+  821 |     textAlign: 'center',
+  822 |     lineHeight: 22,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.unexpected (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6619:16)
+    at TypeScriptParserMixin.expect (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6899:12)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11822:14)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:4764:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseExprListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12175:18)
+    at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11252:22)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11186:29)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11120:19)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9272:18)
+    at TypeScriptParserMixin.parseSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11094:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11085:17)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseVar (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13384:91)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13230:10)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9408:31)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12851:23)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12744:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:36)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12622:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12612:25)
+    at TypeScriptParserMixin.parse (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:14488:25)
+Web Bundling failed 38ms index.ts (1 module)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\screens\parent\ParentHealthRecordScreen.tsx: Unexpected token, expected "," (819:2)
+
+  817 |   },
+  818 | satisfies
+> 819 |   emptySubtitle: {
+      |   ^
+  820 |     marginTop: 10,
+  821 |     textAlign: 'center',
+  822 |     lineHeight: 22,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.unexpected (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6619:16)
+    at TypeScriptParserMixin.expect (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6899:12)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11822:14)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:4764:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseExprListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12175:18)
+    at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11252:22)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11186:29)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11120:19)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9272:18)
+    at TypeScriptParserMixin.parseSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11094:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11085:17)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseVar (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13384:91)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13230:10)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9408:31)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12851:23)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12744:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:36)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12622:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12612:25)
+    at TypeScriptParserMixin.parse (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:14488:25)
+Web Bundling failed 41ms index.ts (1 module)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\screens\parent\ParentHealthRecordScreen.tsx: Unexpected token, expected "," (819:2)
+
+  817 |   },
+  818 | satisfies
+> 819 |   emptySubtitle: {
+      |   ^
+  820 |     marginTop: 10,
+  821 |     textAlign: 'center',
+  822 |     lineHeight: 22,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.unexpected (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6619:16)
+    at TypeScriptParserMixin.expect (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6899:12)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11822:14)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:4764:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseExprListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12175:18)
+    at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11252:22)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11186:29)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11120:19)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9272:18)
+    at TypeScriptParserMixin.parseSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11094:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11085:17)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseVar (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13384:91)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13230:10)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9408:31)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12851:23)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12744:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:36)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12622:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12612:25)
+    at TypeScriptParserMixin.parse (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:14488:25)
+Web Bundling failed 54ms index.ts (1 module)
+ ERROR  SyntaxError: C:\Users\ADMIN\Desktop\KMS\kms_mobile\src\screens\parent\ParentHealthRecordScreen.tsx: Unexpected token, expected "," (819:2)
+
+  817 |   },
+  818 | satisfies
+> 819 |   emptySubtitle: {
+      |   ^
+  820 |     marginTop: 10,
+  821 |     textAlign: 'center',
+  822 |     lineHeight: 22,
+    at constructor (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:365:19)
+    at TypeScriptParserMixin.raise (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6599:19)
+    at TypeScriptParserMixin.unexpected (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6619:16)
+    at TypeScriptParserMixin.expect (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:6899:12)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11822:14)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11339:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:4764:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11081:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12426:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12493:17)
+    at TypeScriptParserMixin.parseExprListItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12175:18)
+    at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11252:22)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11186:29)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11120:19)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9272:18)
+    at TypeScriptParserMixin.parseSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11094:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11085:17)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11066:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:11046:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9837:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10899:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10904:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10881:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10831:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9786:20)
+    at C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12421:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:10800:17)
+    at TypeScriptParserMixin.parseVar (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13384:91)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13230:10)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9408:31)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12851:23)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:9508:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12767:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12744:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13316:36)
+    at TypeScriptParserMixin.parseBlockBody (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:13309:10)
+    at TypeScriptParserMixin.parseProgram (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12622:10)
+    at TypeScriptParserMixin.parseTopLevel (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:12612:25)
+    at TypeScriptParserMixin.parse (C:\Users\ADMIN\Desktop\KMS\kms_mobile\node_modules\@babel\parser\lib\index.js:14488:25)
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 189ms index.ts (1 module)
+Web Bundled 364ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 123ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 312ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 209ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 260ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 88ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 123ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 187ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 137ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 69ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 194ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web Bundled 296ms index.ts (1 module)
+Web Bundled 160ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 101ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web .\index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 135ms index.ts (1 module)
+ LOG  [web] Logs will appear in the browser console
